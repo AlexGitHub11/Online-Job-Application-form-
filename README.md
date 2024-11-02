@@ -14,3 +14,7 @@ python manage.py runserver
 python manage.py makemigrations - initialised migration to db
 
 python manage.py migrate - migrate model to db
+
+python manage.py createsuperuser - create admin account
+    admin
+    Pythoncourse1!
