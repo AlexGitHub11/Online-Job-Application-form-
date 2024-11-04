@@ -12,3 +12,5 @@ Data Storage: Application data is securely stored in an SQLite database.
 
 Email Confirmation: Sends a confirmation email to the user upon successful submission
 of the application.
+
+This app was built as part of the python mega course (PMC) taught by Ardit Sulce
