@@ -1,20 +1,14 @@
-# What is this project?
+# Job Application Web App
 
+### Overview
+This Django web application allows users to apply for a job by filling out a form.
+The submitted data is stored in an SQLite database, and a confirmation email is sent 
+to the user upon successful submission of the form.
 
-cmds: 
+### Features
+Job Application Form: Users can submit their personal details and apply for a job.
 
-django-admin startproject - start project
+Data Storage: Application data is securely stored in an SQLite database.
 
-django-admin startproject mysite . - create project named 'mysite'
-
-python manage.py startapp job_applicaiton - create app 'job_applicaton'
-
-python manage.py runserver
-
-python manage.py makemigrations - initialised migration to db
-
-python manage.py migrate - migrate model to db
-
-python manage.py createsuperuser - create admin account
-    admin
-    Pythoncourse1!
+Email Confirmation: Sends a confirmation email to the user upon successful submission
+of the application.
