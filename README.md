@@ -2,7 +2,7 @@
 
 ### Overview
 This Django web application allows users to apply for a job by filling out a form.
-The submitted data is stored in an SQLite database, and a confirmation email is sent 
+The submitted data is stored in an SQLite database which has an admin portal backend, and a confirmation email is sent 
 to the user upon successful submission of the form.
 
 ### Features
